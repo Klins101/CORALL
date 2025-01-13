@@ -73,21 +73,21 @@ Here are some example simulations demonstrating COLM's performance across differ
 
 ### Case 2: Crossing Encounter
 <p align="center">
-  <img src="Simulation Results/Gifs/scenario_animation2.gif" alt="Crossing Encounter" width="600"/>
+  <img src="Simulation Results/Gifs/scenario_animation2.gif" alt="Crossing Encounter" width="400"/>
   <br>
   <em>Crossing encounter showing LLM-guided starboard turn decision</em>
 </p>
 
 ### Case 8: Head-on with Crossing
 <p align="center">
-  <img src="Simulation Results/Gifs/scenario_animation8.gif" alt="Head-on with Crossing" width="600"/>
+  <img src="Simulation Results/Gifs/scenario_animation8.gif" alt="Head-on with Crossing" width="400"/>
   <br>
   <em>Complex scenario handling Head-on vessel while managing crossing vessel</em>
 </p>
 
 ### Case 21: Multi-vessel Encounter
 <p align="center">
-  <img src="Simulation Results/Gifs/scenario_animation21.gif" alt="Multi-vessel Scenario" width="600"/>
+  <img src="Simulation Results/Gifs/scenario_animation21.gif" alt="Multi-vessel Scenario" width="400"/>
   <br>
   <em>Three-vessel encounter demonstrating complex decision-making capabilities</em>
 </p>
@@ -131,7 +131,7 @@ This work was developed in collaboration with:
 ## License
 MIT License
 
-Copyright (c) 2025 Pouria Sarhadi, Wasif Naeem, Klinsmann Agyei
+Copyright (c) 2025 Dr Pouria Sarhadi, Prof. Wasif Naeem, Klinsmann Agyei
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
