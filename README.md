@@ -75,14 +75,14 @@ Here are some example simulations demonstrating COLM's performance across differ
 <p align="center">
   <img src="Simulation Results/Gifs/scenario_animation2.gif" alt="Crossing Encounter" width="600"/>
   <br>
-  <em>Head-on encounter showing LLM-guided starboard turn decision</em>
+  <em>Crossing encounter showing LLM-guided starboard turn decision</em>
 </p>
 
 ### Case 8: Head-on with Crossing
 <p align="center">
   <img src="Simulation Results/Gifs/scenario_animation8.gif" alt="Head-on with Crossing" width="600"/>
   <br>
-  <em>Complex scenario handling overtaking vessel while managing crossing vessel</em>
+  <em>Complex scenario handling Head-on vessel while managing crossing vessel</em>
 </p>
 
 ### Case 21: Multi-vessel Encounter
@@ -95,9 +95,34 @@ Here are some example simulations demonstrating COLM's performance across differ
 Each animation shows:
 - Own Ship (OS) in voilet
 - Target Ships (TS) in blue, orange and green respectively depending on the number of target ships
-- Risk levels indicated by color intensity
 - Vessel trajectories and maneuvers
 - Real-time COLREGs-compliant decisions
+
+## Analysis and Results
+### Risk and CPA Analysis for case 1, 7, 21
+<p align="center">
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_1.eps" alt="DCPA TCPA Risk Analysis for Case 1" width="200"/>
+  <br>
+  <em>Evolution of DCPA, TCPA, Range, and Risk parameters for Case 1</em>
+</p>
+<p align="center">
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_7.eps" alt="DCPA TCPA Risk Analysis for Case 7" width="200"/>
+  <br>
+  <em>Evolution of DCPA, TCPA, Range, and Risk parameters for Case 7</em>
+</p>
+<p align="center">
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_21.eps" alt="DCPA TCPA Risk Analysis for Case 21" width="200"/>
+  <br>
+  <em>Evolution of DCPA, TCPA, Range, and Risk parameters for Case 21</em>
+</p>
+
+The plots demonstrate:
+- DCPA/TCPA trends showing effective collision avoidance
+- Risk assessment throughout the encounter
+- Clear correlation between risk levels and LLM decisions
+- Validation of COLREGs compliance through maneuver choices
+
+
 
 ## Contributing
 This project was developed at:
