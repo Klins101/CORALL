@@ -104,7 +104,7 @@ SOFTWARE.
 
 ## Contact
 - Dr. Pouria Sarhadi - p.sarhadi@herts.ac.uk
-- Dr. Wasif Naeem - w.naeem@qub.ac.uk
+- Dr. Wasif Naeem - w.naeem@ee.qub.ac.uk
 - Klinsmann Agyei - k.agyei@herts.ac.uk
 
 ## Citation
