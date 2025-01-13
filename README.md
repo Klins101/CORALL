@@ -68,6 +68,37 @@ The simulation generates:
 - Decision direction (Kdir) plots
 - Simulation result visualizations
 
+## Example Scenarios
+Here are some example simulations demonstrating COLM's performance across different encounter types:
+
+### Case 2: Crossing Encounter
+<p align="center">
+  <img src="img/scenario_animation2.gif" alt="Crossing Encounter" width="600"/>
+  <br>
+  <em>Head-on encounter showing LLM-guided starboard turn decision</em>
+</p>
+
+### Case 7: Head-on with Crossing
+<p align="center">
+  <img src="img/scenario_animation8.gif" alt="Head-on with Crossing" width="600"/>
+  <br>
+  <em>Complex scenario handling overtaking vessel while managing crossing vessel</em>
+</p>
+
+### Case 22: Multi-vessel Encounter
+<p align="center">
+  <img src="img/scenario_animation21.gif" alt="Multi-vessel Scenario" width="600"/>
+  <br>
+  <em>Three-vessel encounter demonstrating complex decision-making capabilities</em>
+</p>
+
+Each animation shows:
+- Own Ship (OS) in voilet
+- Target Ships (TS) in blue, orange and green respectively depending on the number of target ships
+- Risk levels indicated by color intensity
+- Vessel trajectories and maneuvers
+- Real-time COLREGs-compliant decisions
+
 ## Contributing
 This project was developed at:
 - School of Physics, Engineering and Computer Science, University of Hertfordshire, UK
