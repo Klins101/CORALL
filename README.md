@@ -73,7 +73,7 @@ Here are some example simulations demonstrating COLM's performance across differ
 
 ### Case 2: Crossing Encounter
 <p align="center">
-  <img src="img/scenario_animation2.gif" alt="Crossing Encounter" width="600"/>
+  <img src="Simulation Results/Gifs/scenario_animation2.gif" alt="Crossing Encounter" width="600"/>
   <br>
   <em>Head-on encounter showing LLM-guided starboard turn decision</em>
 </p>
