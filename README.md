@@ -131,7 +131,7 @@ This work was developed in collaboration with:
 ## License
 MIT License
 
-Copyright (c) 2024 Kwabena Agyei, Pouria Sarhadi, Wasif Naeem
+Copyright (c) 2025 Pouria Sarhadi, Wasif Naeem, Klinsmann Agyei
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -153,7 +153,7 @@ SOFTWARE.
 
 ## Contact
 - Dr. Pouria Sarhadi - p.sarhadi@herts.ac.uk
-- Dr. Wasif Naeem - w.naeem@ee.qub.ac.uk
+- Prof. Wasif Naeem - w.naeem@ee.qub.ac.uk
 - Klinsmann Agyei - k.agyei@herts.ac.uk
 
 ## Citation
