@@ -101,20 +101,13 @@ Each animation shows:
 ## Analysis and Results
 ### Risk and CPA Analysis for case 1, 7, 21
 <p align="center">
-  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_1.eps" alt="DCPA TCPA Risk Analysis for Case 1" width="200"/>
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_1.png" alt="DCPA TCPA Risk Analysis for Case 1" width="200"/>
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_7.png" alt="DCPA TCPA Risk Analysis for Case 7" width="200"/>
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_21.png" alt="DCPA TCPA Risk Analysis for Case 21" width="200"/>
   <br>
-  <em>Evolution of DCPA, TCPA, Range, and Risk parameters for Case 1</em>
+  <em>Evolution of DCPA, TCPA, Range, and Risk parameters</em>
 </p>
-<p align="center">
-  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_7.eps" alt="DCPA TCPA Risk Analysis for Case 7" width="200"/>
-  <br>
-  <em>Evolution of DCPA, TCPA, Range, and Risk parameters for Case 7</em>
-</p>
-<p align="center">
-  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_21.eps" alt="DCPA TCPA Risk Analysis for Case 21" width="200"/>
-  <br>
-  <em>Evolution of DCPA, TCPA, Range, and Risk parameters for Case 21</em>
-</p>
+
 
 The plots demonstrate:
 - DCPA/TCPA trends showing effective collision avoidance
