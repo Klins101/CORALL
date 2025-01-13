@@ -1,0 +1,10 @@
+# Python version requirement
+python>=3.8
+
+# Core libraries
+numpy>=1.21.0
+matplotlib>=3.4.0
+
+# LangChain libraries
+langchain-openai>=0.0.1
+langchain-core>=0.0.1
