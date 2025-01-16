@@ -1,5 +1,5 @@
-# COLM: COLREGs-Guided Risk-Aware LLM for Maritime Autonomous Navigation
-COLM is a novel framework that integrates Large Language Models with real-time risk assessment for autonomous maritime navigation. The system combines LLM-based decision-making with traditional motion planning to enable COLREGs-compliant collision avoidance in autonomous surface vessels.
+# CORALL: COLREGs-Guided Risk-Aware LLM for Maritime Autonomous Navigation
+CORALL is a novel framework that integrates Large Language Models with real-time risk assessment for autonomous maritime navigation. The system combines LLM-based decision-making with traditional motion planning to enable COLREGs-compliant collision avoidance in autonomous surface vessels.
 
 ## Features
 - LLM-based COLREGs interpretation and decision-making
