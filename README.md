@@ -22,8 +22,8 @@ langchain_core
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Klins101/COLM.git
-cd COLM
+git clone https://github.com/Klins101/CORALL.git
+cd CORALL
 ```
 
 2. Install dependencies:
@@ -69,7 +69,7 @@ The simulation generates:
 - Simulation result visualizations
 
 ## Example Scenarios
-Here are some example simulations demonstrating COLM's performance across different encounter types:
+Here are some example simulations demonstrating CORALL's performance across different encounter types:
 
 ### Case 2: Crossing Encounter
 <p align="center">
@@ -157,7 +157,7 @@ SOFTWARE.
 - Klinsmann Agyei - k.agyei@herts.ac.uk
 
 ## Citation
-If you use COLM in your research, please cite:
+If you use CORALL in your research, please cite:
 ```
 [Citation details will be added after publication]
 ```
