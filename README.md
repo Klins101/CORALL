@@ -244,17 +244,17 @@ When using `--compare` flag, additional files are generated:
 You can customize LLM behavior by modifying the environment variables:
 
 ```bash
-# Adjust response length (max 50 characters recommended)
-OPENAI_MAX_TOKENS=50
-CLAUDE_MAX_TOKENS=50
+# Adjust response length (max 100 characters recommended)
+OPENAI_MAX_TOKENS=INT
+CLAUDE_MAX_TOKENS=INT
 
 # Adjust creativity (0.0 = deterministic, 1.0 = creative)
 OPENAI_TEMPERATURE=0.1
 CLAUDE_TEMPERATURE=0.1
 
 # Switch between models
-OPENAI_MODEL=gpt-3.5-turbo  # or gpt-4
-CLAUDE_MODEL=claude-3-sonnet-20240229  # or claude-3-haiku-20240307
+OPENAI_MODEL=gpt-gpt-4
+CLAUDE_MODEL=claude-sonnet-4-20250514
 ```
 
 ### Customizing LLM Prompt Template
@@ -270,16 +270,7 @@ To modify the prompt:
 1. **Edit the system prompt** in the `MultiLLMCOLREGSInterpreter` class (around line 131):
 
 ```python
-self.system_prompt = """You are a ship navigation officer. Make COLREGs-compliant decisions.
-
-IMPORTANT: Give response of not more than 50 characters.
-
-Reply with only:
-- "turn starboard" (right turn)
-- "turn port" (left turn)  
-- "stand on" (maintain course)
-
-Keep response under 50 characters."""
+self.system_prompt = """You are a ship navigation officer. Make COLREGs-compliant decisions...."""
 ```
 
 2. **Customize for your needs**:
