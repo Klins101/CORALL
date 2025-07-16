@@ -1,0 +1,88 @@
+# Simulation Parameters
+simulation:
+  default_time: 450.0          
+  default_dt: 0.1              
+  default_case: 1              
+  output_directory: "img/"     
+  animation_fps: 5             
+
+# Vessel Configuration
+vessel:
+  own_ship:
+    length_overall: 30         
+    beam_overall: 16           
+    cpa_multiplier: 2          
+    default_speed: 43.3       
+    
+  target_ships:
+    length_overall: 80         
+    beam_overall: 30           
+    cpa_multiplier: 1          
+
+# Navigation Parameters
+navigation:
+  waypoint_threshold: 200      
+  default_waypoints:
+    start: [0, 0]              
+    end: [40, 0]               
+
+# Control System Parameters
+control:
+  sampling_time: 0.1           
+  saturation_amplitude: 20     
+  controller_gains:
+    kp: 1.0                    
+    ki: 0.1                    
+    kd: 0.01                   
+
+# Risk Assessment Parameters
+risk_assessment:
+  dcpa_thresholds:
+    safe: 0.5                  
+    caution: 0.2               
+    danger: 0.1                
+  
+  tcpa_thresholds:
+    immediate: 60              
+    near_term: 300             
+    long_term: 600             
+
+# Visualization Parameters
+visualization:
+  plot_settings:
+    figure_size: [12, 8]       
+    dpi: 300                   
+    line_width: 1.0            
+    font_size: 12              
+    
+  colors:
+    own_ship: "blue"           
+    target_ships: "red"        
+    waypoints: "green"         
+    risk_zones: "orange"       
+    
+  animation:
+    update_interval: 200       
+    trail_length: 50           
+
+# LLM Configuration (Optional)
+llm:
+  enabled: false               
+  model: "gpt-4"      
+  temperature: 0.1            
+  max_tokens: 500              
+  update_interval: 200         
+  
+# Output Configuration
+output:
+  save_animation: true         
+  save_plots: true            
+  save_trajectory: true       
+  file_formats: ["png", "eps"] 
+  
+# Debug Configuration
+debug:
+  enabled: false              # Enable debug output
+  log_level: "INFO"           # Logging level
+  save_intermediate: false    # Save intermediate calculations
+  verbose_output: false       # Verbose console output

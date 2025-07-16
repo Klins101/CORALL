@@ -20,7 +20,7 @@ This repository contains the complete implementation of the CORALL framework as 
 ## Project Structure
 
 ```
-marine-vessel-simulation/
+CORALL/
 ├── main.py                 # Main entry point
 ├── requirements.txt        # Python dependencies
 ├── setup.py               # Package installation
