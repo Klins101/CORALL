@@ -347,6 +347,59 @@ run_simulation(
 )
 ```
 
+
+## Example Scenarios
+Here are some example simulations demonstrating CORALL's performance across different encounter types:
+
+### Case 2: Crossing Encounter
+<p align="center">
+  <img src="Simulation Results/Gifs/scenario_animation2.gif" alt="Crossing Encounter" width="400"/>
+  <br>
+  <em>Crossing encounter showing LLM-guided starboard turn decision</em>
+</p>
+
+### Case 8: Head-on with Crossing
+<p align="center">
+  <img src="Simulation Results/Gifs/scenario_animation8.gif" alt="Head-on with Crossing" width="400"/>
+  <br>
+  <em>Complex scenario handling Head-on vessel while managing crossing vessel</em>
+</p>
+
+### Case 21: Multi-vessel Encounter
+<p align="center">
+  <img src="Simulation Results/Gifs/scenario_animation21.gif" alt="Multi-vessel Scenario" width="400"/>
+  <br>
+  <em>Three-vessel encounter demonstrating complex decision-making capabilities</em>
+</p>
+
+Each animation shows:
+- Own Ship (OS) in voilet
+- Target Ships (TS) in blue, orange and green respectively depending on the number of target ships
+- Vessel trajectories and maneuvers
+- Real-time COLREGs-compliant decisions
+
+## Analysis and Results
+### Risk and CPA Analysis for case 1, 7, 21
+<p align="center">
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_1.png" alt="DCPA TCPA Risk Analysis for Case 1" width="200"/>
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_7.png" alt="DCPA TCPA Risk Analysis for Case 7" width="200"/>
+  <img src="Simulation Results/Analysis/plot_dcpa_tcpa_risk_21.png" alt="DCPA TCPA Risk Analysis for Case 21" width="200"/>
+  <br>
+  <em>Evolution of DCPA, TCPA, Range, and Risk parameters</em>
+</p>
+
+
+The plots demonstrate:
+- DCPA/TCPA trends showing effective collision avoidance
+- Risk assessment throughout the encounter
+- Clear correlation between risk levels and LLM decisions
+- Validation of COLREGs compliance through maneuver choices
+
+
+
+
+
+
 ## Contributing
 
 We welcome contributions! Please follow these guidelines:
