@@ -440,11 +440,6 @@ If you use CORALL in your research, please cite:
 This work was developed in collaboration with:
 - Dr. Pouria Sarhadi (University of Hertfordshire)
 - Prof. Wasif Naeem (Queen's University Belfast)
-- Klinsmann Agyei (University of Hertfordshire)
-
-- COLREGs implementation based on IMO regulations
-- Vessel dynamics model inspired by Fossen's marine control systems
-- Risk assessment algorithms adapted from maritime safety research
 - LLM integration using OpenAI GPT and Anthropic Claude models
 
 ## Contact
