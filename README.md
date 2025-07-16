@@ -62,9 +62,8 @@ CORALL/
 │       ├── imazu_cases.py
 │       └── validation.py
 │
-├── tests/               # Test suite
-├── docs/                # Documentation
-├── examples/            # Example simulations
+├── tests/              
+├── docs/                # Documentation   
 ├── config/              # Configuration files
 └── img/                 # Output images and animations
 ```
@@ -104,15 +103,14 @@ Create a `.env` file in the root directory with your API keys:
 ```bash
 # OpenAI Configuration
 OPENAI_API_KEY=your-openai-api-key-here
-OPENAI_MODEL=gpt-3.5-turbo
+OPENAI_MODEL=gpt-4
 OPENAI_TEMPERATURE=0.1
 OPENAI_MAX_TOKENS=50
 
 # Claude Configuration  
 CLAUDE_API_KEY=your-claude-api-key-here
-CLAUDE_MODEL=claude-3-sonnet-20240229
+CLAUDE_MODEL=claude-sonnet-4-20250514
 CLAUDE_TEMPERATURE=0.1
-CLAUDE_MAX_TOKENS=50
 
 # Default LLM Provider
 LLM_PROVIDER=openai
@@ -270,7 +268,7 @@ To modify the prompt:
 1. **Edit the system prompt** in the `MultiLLMCOLREGSInterpreter` class (around line 131):
 
 ```python
-self.system_prompt = """You are a ship navigation officer. Make COLREGs-compliant decisions...."""
+self.system_prompt = """You are a ship navigation officer. Make COLREGs-compliant decisions..."""
 ```
 
 2. **Customize for your needs**:
@@ -285,12 +283,11 @@ self.system_prompt = """You are a ship navigation officer. Make COLREGs-complian
 self.system_prompt = """You are an expert maritime navigator with 20 years experience.
 Follow IMO COLREGs strictly. Consider vessel types, weather, and traffic density.
 
-Response format (max 50 chars):
+Response format:
 - "turn starboard" - right turn per Rule 14/15
 - "turn port" - left turn per Rule 16/17  
 - "stand on" - maintain course per Rule 13/17
-
-Prioritize safety over efficiency."""
+"""
 ```
 
 4. **Response parsing**: If you change the response format, also update the `extract_kdir_from_response()` function in the same file to properly parse your custom responses.
@@ -343,10 +340,10 @@ waypoints = np.array([[100, 200], [300, 400], [500, 300]])
 
 # Run simulation with custom parameters
 run_simulation(
-    case_number=22,
+    case_number=23,
     waypoints=waypoints,
     sim_time=600.0,
-    dt=0.05
+    dt=0.1
 )
 ```
 
@@ -367,17 +364,7 @@ We welcome contributions! Please follow these guidelines:
 - Include type hints where applicable
 - Write unit tests for new features
 
-## Testing
 
-Run the test suite:
-```bash
-python -m pytest tests/
-```
-
-Run with coverage:
-```bash
-python -m pytest --cov=src tests/
-```
 
 ## License
 
