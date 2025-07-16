@@ -185,7 +185,7 @@ The system includes several predefined test scenarios (Imazu cases) that represe
 - **Case 2**: Crossing situation
 - **Case 3**: Overtaking scenario
 - **Case 4**: Multiple vessel encounter
-- **Case 5-15**: Various complex scenarios
+- **Case 5-23**: Various complex scenarios
 
 ## Output
 
