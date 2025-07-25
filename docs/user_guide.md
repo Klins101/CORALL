@@ -18,7 +18,7 @@ python main.py [OPTIONS]
 ```
 
 Available options:
-- `--case_number INT`: Test scenario (1-15, default: 1)
+- `--case_number INT`: Test scenario (1-23, default: 1)
 - `--sim_time FLOAT`: Simulation duration in seconds (default: 450.0)
 - `--dt FLOAT`: Time step size (default: 0.1)
 - `--no_animation`: Disable real-time animation
@@ -45,14 +45,14 @@ python main.py --llm 1 --case_number 2
 
 ### Test Cases (Imazu Scenarios)
 
-The simulation includes 15 predefined test cases representing different maritime encounters:
+The simulation includes 23 predefined test cases representing different maritime encounters:
 
 1. **Case 1**: Head-on encounter
 2. **Case 2**: Crossing situation (starboard)
 3. **Case 3**: Crossing situation (port)
 4. **Case 8**: Overtaking scenario
 5. **Case 15**: Multi-vessel encounter
-6. **Cases 4-14**: Various complex scenarios
+6. **Cases 4-23**: Various complex scenarios
 
 ### Simulation Parameters
 
