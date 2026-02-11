@@ -25,8 +25,8 @@ def risk_calculations(dcpa, tcpa, distance_ob, v_rel):
     a_dcpa = 443.0/1852
     b_dcpa = 926/1852
 
-    a_tcpa = 180/1852
-    b_tcpa = 360/1852
+    a_tcpa = 180/3600
+    b_tcpa = 360/3600
 
     a_dist = 148.16/1852
     b_dist = 463.0/1852
