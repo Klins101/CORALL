@@ -1,6 +1,6 @@
 # LLM Setup Guide
 
-## 🔑 Setting Up LLM API Keys (OpenAI & Claude)
+## Setting Up LLM API Keys (OpenAI & Claude)
 
 ### **Method 1: .env File (Recommended)**
 
@@ -70,22 +70,7 @@ source ~/.bashrc
 
 2. **Load in code** (advanced users can modify the LLM module to read from this file)
 
-## 🔐 Security Best Practices
-
-### **DO:**
-- ✅ Use .env file for local development
-- ✅ Keep API keys in environment variables for production
-- ✅ Add .env to .gitignore (already done)
-- ✅ Use different keys for development/production
-- ✅ Rotate keys regularly
-
-### **DON'T:**
-- ❌ Never commit API keys to git
-- ❌ Don't share keys in plain text
-- ❌ Don't use production keys for testing
-- ❌ Don't hardcode keys in source code
-
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Get your API key** from https://platform.openai.com/api-keys
 2. **Choose your method** (we recommend .env file)
